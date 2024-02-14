@@ -10,8 +10,8 @@
     <title>Grid Design</title>
 </head>
 
-<body class="h-screen bg-gray-200 grid grid-cols-12 box-border">
-    <form class="font-thin col-start-5 col-span-4  h-fit mt-10 bg-white  border-t-4 px-8 flex flex-col gap-y-2" style="border-color:orange;">
+<body class="w-full h-screen bg-gray-200 grid grid-cols-12   box-border" >
+    <form class="font-thin  col-start-1 col-span-full md:col-start-3 md:col-span-8  pt-10   h-fit sm:mt-10 bg-white  border-t-4 px-8 flex flex-col gap-y-4 md:gap-y-2" style="border-color:orange;">
         <h2 class="text-center text-3xl">Responsive Registration</h2>
         <h2 class="text-center text-3xl">Form</h2>
         <br>
@@ -28,8 +28,8 @@
 
         
            
-            <div class="flex  ">
-                <div class="border-2  flex grow  p-1">
+            <div class="flex flex-col sm:flex-row gap-2">
+                <div class="border-2  flex   p-1 ">
                     <div>
                         <i class="fa-solid fa-user"></i>  
                     </div>
@@ -44,7 +44,7 @@
                     <div>
                         <i class="fa-solid fa-user"></i>  
                     </div>
-                    <div>
+                    <div >
                         <input type="text" placeholder="Last Name" class="outline-none">
                     </div>
     
@@ -91,8 +91,8 @@
                 <input type="checkbox" name="agree2">
                 <label for="agree2">I want to receive the newsletter</label>
                 </div>
-      
-        <button type="submit" class="w-full text-white text-lg p-1" style="background-color: orange">Register</button>
+      <br>
+        <button type="submit" class="w-full rounded-lg sm:rounded-none text-white text-lg p-1" style="background-color: orange">Register</button>
 
 
     </form>
